@@ -57,7 +57,7 @@ function App() {
       {/* style={{ minHeight: "100dvh", paddingBottom: "20px" }} */}
       {/* ${dark ? "bg-black" : ""} */}
       <button
-        className={`px-2 py-1 m-2 top-20 hover:bg-indigo-700 bg-indigo-800 text-indigo-100 absolute rounded-full ${
+        className={`px-2 py-1 m-2 lg:left-[55%] shadow-lg hover:bg-indigo-700 bg-indigo-800 text-indigo-100 absolute rounded-full ${
           dark ? "b" : ""
         }`}
         onClick={() => {
